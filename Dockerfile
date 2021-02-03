@@ -1,4 +1,4 @@
-FROM node:8-buster
+FROM node:14-buster
 MAINTAINER Graham Rivers-Brown <graham@extg.net>
 
 RUN apt-get update && apt-get -y install unzip openjdk-11-jre-headless openjdk-11-jdk python-pip git build-essential python-dev
